@@ -45,8 +45,10 @@ Proyecto final 1er semestre
   especidique su direccion : 
     Su servicio esta en camino
   Necesita algo mas?
-  1. si
-  2. no
+  1. si :
+  volver al menu
+  2. no:
+  resumen de servicio y salir
   (4:salir)
   exit
   
