@@ -75,7 +75,10 @@ void desplegarMenuZona (int tecla1,int tecla2,int& tecla3,string teclaName1,stri
 {
     system("cls");
     int c,numeroDeOpciones;
-    string opcionesMenuZona [5] = { " Indique donde se encuentra.\n",  "1 Zona Sur.",  "2 Zona Norte.",  "3 Zona especifica.",  "4 salir"};
+    string opcionesMenuZona [5] = { " Indique donde se encuentra.\n",  
+                                   "1 Zona Sur.",  "2 Zona Norte.",  
+                                   "3 Zona especifica.",  
+                                   "4 salir"};
 
 
         c=0;
@@ -112,10 +115,22 @@ void desplegarMenu2 (int tecla1,int& tecla2,int& tecla3,string teclaName1,string
     int c,opcion;
 
 
-    string opcionRobo [5] =  {"1","1. Llamar a la Policia.","2. Llamar Personal medico.","3. Salir ."};
-    string opcionPeligro [5] =   {"4","1. Llamar a la Policia.","2. Llamar Bomberos.","3. llamar a otra persona.","4. Salir ."};
-    string opcionIncendio [5] =   {"2","1. Llamar a la Policia.","2. Salir ."};
-    string opcionAccidente [5] =   {"3","1. Llamar a la Policia.","2. Llamar Personal medico.","3. Salir ."};
+    string opcionRobo [5] =  {"1",
+                              "1. Llamar a la Policia.",
+                              "2. Llamar Personal medico.",
+                              "3. Salir ."};
+    string opcionPeligro [5] =   {"4",
+                                  "1. Llamar a la Policia.",
+                                  "2. Llamar Bomberos.",
+                                  "3. llamar a otra persona.",
+                                  "4. Salir ."};
+    string opcionIncendio [5] =   {"2",
+                                   "1. Llamar a la Policia.",
+                                   "2. Salir ."};
+    string opcionAccidente [5] =   {"3",
+                                    "1. Llamar a la Policia.",
+                                    "2. Llamar Personal medico.",
+                                    "3. Salir ."};
 
 
     if (tecla1 == 1)
@@ -175,7 +190,13 @@ void desplegarMenu1(int& tecla1,int& tecla2,int& tecla3,string& teclaName1,strin
     int c,numeroDeOpciones,Opcion;
         system("cls");
         cin.clear();
-        string opcionesMenu1 [7] = {"SALVAVIDAS DE BOLSILLO \n \n " ,"1. Reportar un robo " ,"2. Me siento en peligro" ,"3. Reportar incendio" ,"4. Reportar accidente" ,"5. Salir \n" ,"Elije una opcion: "};
+        string opcionesMenu1 [7] = {"SALVAVIDAS DE BOLSILLO \n \n " ,
+                                    "1. Reportar un robo " ,
+                                    "2. Me siento en peligro" ,
+                                    "3. Reportar incendio" ,
+                                    "4. Reportar accidente" ,
+                                    "5. Salir \n" ,
+                                    "Elije una opcion: "};
         c=0;
         numeroDeOpciones=7;
 
